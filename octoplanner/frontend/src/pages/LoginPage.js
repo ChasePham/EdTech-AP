@@ -3,10 +3,10 @@ import { Outlet, Link } from "react-router-dom";
 const LoginPage = () => {
     return (
         <div>
-            {/* <nav>
-                <Link to="/restaraunts">Octoplanner</Link>
-            </nav> */}
             <h1>Login to Octoplanner!</h1>
+            <a className="App-link"
+                href="/calendar"
+            rel="noopener noreferrer">Login</a>
         </div>
     );
 };

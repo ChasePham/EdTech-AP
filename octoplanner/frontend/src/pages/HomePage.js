@@ -1,5 +1,5 @@
-import logo from '../logo.svg';
-import '../App.css';
+import logo from '../images/logo.svg';
+import '../css/App.css';
 import { initializeApp } from "firebase/app";
 import { getAnalytics } from "firebase/analytics"
 import {db,auth} from "./Firebase"
@@ -11,7 +11,7 @@ function HomePage() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          Welcome to Octoplanner.
         </p>
         <a
           className="App-link"
