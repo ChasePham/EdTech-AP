@@ -1,7 +1,8 @@
-import logo from './logo.svg';
-import './App.css';
+import logo from '../logo.svg';
+import '../App.css';
 
-function App() {
+
+function HomePage() {
   return (
     <div className="App">
       <header className="App-header">
@@ -11,15 +12,14 @@ function App() {
         </p>
         <a
           className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
+          href="/login"
           rel="noopener noreferrer"
         >
-          Learn React
+          Login
         </a>
       </header>
     </div>
   );
 }
 
-export default App;
+export default HomePage;
