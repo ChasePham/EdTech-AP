@@ -1,9 +1,9 @@
 import logo from '../images/logo.svg';
 import '../css/App.css';
-import {db,auth} from "./Firebase"
+import {db,auth} from "../api/Firebase"
 
 
-function HomePage() {
+function WelcomePage() {
   return (
     <div className="App">
       <header className="App-header">
@@ -23,4 +23,4 @@ function HomePage() {
   );
 }
 
-export default HomePage;
+export default WelcomePage;

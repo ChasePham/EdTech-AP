@@ -1,12 +1,13 @@
 import { Outlet, Link } from "react-router-dom";
-import {db,auth} from "./Firebase"
-import { GoogleAuthProvider ,signInWithPopup} from "firebase/auth";
+import {db,auth} from "../api/Firebase"
+import { GoogleAuthProvider,signInWithPopup} from "firebase/auth";
 
 const LoginPage = () => {
 
     const signInWithGoogle = () => {
         const provider = new GoogleAuthProvider();;
         signInWithPopup(auth,provider);
+
     }
     return (
         <div>
