@@ -1,4 +1,5 @@
 import { Outlet, Link } from "react-router-dom";
+import {db,auth} from "./Firebase"
 
 const LoginPage = () => {
     return (

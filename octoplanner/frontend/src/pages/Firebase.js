@@ -25,7 +25,7 @@ const app = initializeApp(firebaseConfig);
 // Not really needed, just gives analytics of how many ppl visit app
 // const analytics = getAnalytics(app); 
 
-console.log(app)
+// console.log(app)
 
 initializeApp(firebaseConfig);
 const db = getFirestore();

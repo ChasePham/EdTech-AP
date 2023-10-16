@@ -1,11 +1,10 @@
 import logo from '../images/logo.svg';
 import '../css/App.css';
-import { initializeApp } from "firebase/app";
-import { getAnalytics } from "firebase/analytics"
+
 import {db,auth} from "./Firebase"
+
+
 function HomePage() {
-
-
   return (
     <div className="App">
       <header className="App-header">
