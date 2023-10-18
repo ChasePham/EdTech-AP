@@ -1,14 +1,31 @@
-import { Outlet, Link } from "react-router-dom";
+import { Outlet, Link, useNavigate } from "react-router-dom";
 import {db,auth} from "../api/Firebase"
 import { GoogleAuthProvider,signInWithPopup} from "firebase/auth";
 
 const LoginPage = () => {
 
+    const navigate = new useNavigate();
+
     const signInWithGoogle = () => {
         const provider = new GoogleAuthProvider();;
-        signInWithPopup(auth,provider);
-
+        signInWithPopup(auth, provider)
+        .then((result) => {
+            const name = result.user.displayName;
+            const email = result.user.email;
+            const profilePic = result.user.photoURL;
+            localStorage.setItem("name", name);
+            localStorage.setItem("email", email);
+            localStorage.setItem("profilePic", profilePic);
+            navigate("/home");
+        })
+        .catch((error) => {
+            console.log(error);
+        });
+        // onSuccess();
     }
+    // const onSuccess = () => {
+
+    // }
     return (
         <div>
             <button className="sign-in" onClick={signInWithGoogle}>Sign in with Google</button>
