@@ -14,11 +14,14 @@ export default function NavBar() {
                     <NavLink to="/input">Generate</NavLink>
                 </li>
                 <li>
-                    <NavLink to="/calendar">Octo</NavLink>
+                    <NavLink to="/octo">Octo</NavLink>
                 </li>
                 <li>
-                    <NavLink to="/calendar">About</NavLink>
+                    <NavLink to="/about">About</NavLink>
                 </li>
+                {/* <li>
+                    {localStorage.profilePic}
+                </li> */}
             </ul>
             
         </nav>

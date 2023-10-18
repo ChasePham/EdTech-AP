@@ -1,13 +1,12 @@
 import NavBar from "../components/NavBar";
 
-
-const CalendarPage = () => {
+const AboutPage = () => {
     return (
         <div>
             <NavBar/>
-            <h1>Cal!</h1>
+            <h1>About Page</h1>
         </div>
     );
 };
   
-export default CalendarPage;
+export default AboutPage;
