@@ -6,6 +6,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import LoginPage from './pages/LoginPage';
 import CalendarPage from './pages/CalendarPage';
 import HomePage from './pages/HomePage';
+import InputPage from './pages/InputPage';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -16,6 +17,7 @@ root.render(
         <Route path="login" element={<LoginPage />} />
         <Route path="calendar" element={<CalendarPage />} />
         <Route path="home" element={<HomePage />} />
+        <Route path="input" element={<InputPage />} />
         {/* <Route path="/" element={<Layout />}/> */}
       </Routes>
   </BrowserRouter>
