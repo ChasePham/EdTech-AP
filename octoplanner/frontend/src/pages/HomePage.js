@@ -1,16 +1,17 @@
 import logo from '../images/logo.svg';
 import '../css/App.css';
+import { NavLink } from 'react-router-dom';
+import NavBar from '../components/NavBar';
+
 
 function HomePage() {
   
   return (
-    <div className="App">
-      <nav>
-        <h1>Home</h1>
-      </nav>
-      <header className="App-header">
+    <div>
+      <NavBar/>
+      <h1>
         Welcome, {localStorage.name}!
-      </header>
+      </h1>
     </div>
   );
 }
