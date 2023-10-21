@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { Document, Page, pdfjs } from 'react-pdf';
+import NavBar from "../components/NavBar";
 
 pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.js`;
 
@@ -38,6 +39,7 @@ function InputPage() {
 
   return (
     <div>
+      <NavBar/>
       <input type="file" accept=".pdf" onChange={onFileChange} />
       <button onClick={extractText}>Extract Text</button>
       {file && (

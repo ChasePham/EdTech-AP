@@ -7,6 +7,8 @@ import LoginPage from './pages/LoginPage';
 import CalendarPage from './pages/CalendarPage';
 import HomePage from './pages/HomePage';
 import InputPage from './pages/InputPage';
+import AboutPage from './pages/AboutPage';
+import OctoPage from './pages/OctoPage';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -18,6 +20,9 @@ root.render(
         <Route path="calendar" element={<CalendarPage />} />
         <Route path="home" element={<HomePage />} />
         <Route path="input" element={<InputPage />} />
+        <Route path="about" element={<AboutPage />} />
+        <Route path="octo" element={<OctoPage />} />
+
         {/* <Route path="/" element={<Layout />}/> */}
       </Routes>
   </BrowserRouter>
