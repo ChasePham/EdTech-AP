@@ -1,9 +1,40 @@
-import { NavLink } from "react-router-dom";
+import { useNavigate, NavLink } from "react-router-dom";
+import React from 'react';
 import "../css/NavBar.css";
 import "@fontsource/roboto/400.css"; 
+import MenuItem from '@mui/material/MenuItem';
+import Button from '@mui/material/Button';
+import Menu from '@mui/material/Menu';
+import PopupState, { bindTrigger, bindMenu } from 'material-ui-popup-state';
+import { createTheme, ThemeProvider } from "@mui/material/styles";
 
 
 export default function NavBar() {
+
+    const navigate = new useNavigate();
+
+    const toAccountPage = (popupState) => {
+        popupState.close();
+        navigate("/account");
+    }
+
+    const logOut = (popupState) => {
+        popupState.close();
+        localStorage.removeItem("name");
+        localStorage.removeItem("email");
+        localStorage.removeItem("profilePic");
+        navigate("/");
+    }
+
+    const theme = createTheme({
+        palette: {
+          white: {
+            main: "#fff",
+            contrastText: "#fff"
+          }
+        }
+      });
+
     return (
         <nav className="nav">
             <ul>
@@ -26,7 +57,21 @@ export default function NavBar() {
                     <NavLink to="/account">My Account</NavLink>
                 </li>
                 <li>
-                    <img src={localStorage.profilePic} alt = "profile"/>
+                    <ThemeProvider theme={theme}>
+                        <PopupState variant="popover">
+                            {(popupState) => (
+                                <React.Fragment>
+                                    <Button color="white" variant="text" {...bindTrigger(popupState)}>
+                                        <img src={localStorage.profilePic} alt = "profile"/>
+                                    </Button>
+                                    <Menu {...bindMenu(popupState)}>
+                                        <MenuItem onClick={() => {toAccountPage(popupState);}}>Account</MenuItem>
+                                        <MenuItem onClick={() => {logOut(popupState);}}>Logout</MenuItem>
+                                    </Menu>
+                                </React.Fragment>
+                            )}
+                        </PopupState>
+                    </ThemeProvider>
                 </li>
             </ul>
         </nav>
