@@ -1,12 +1,13 @@
 import { NavLink } from "react-router-dom";
 import "../css/NavBar.css";
+import "@fontsource/roboto/400.css"; 
 
 
 export default function NavBar() {
     return (
         <nav className="nav">
-            <h1>octomize.</h1>
             <ul>
+                <h1>octomize.</h1>
                 <li>
                     <NavLink to="/home">Home</NavLink>
                 </li>
@@ -19,11 +20,15 @@ export default function NavBar() {
                 <li>
                     <NavLink to="/about">About</NavLink>
                 </li>
-                {/* <li>
-                    {localStorage.profilePic}
-                </li> */}
             </ul>
-            
+            <ul>
+                <li>
+                    <NavLink to="/account">My Account</NavLink>
+                </li>
+                <li>
+                    <img src={localStorage.profilePic} alt = "profile"/>
+                </li>
+            </ul>
         </nav>
     )
 }

@@ -9,6 +9,7 @@ import HomePage from './pages/HomePage';
 import InputPage from './pages/InputPage';
 import AboutPage from './pages/AboutPage';
 import OctoPage from './pages/OctoPage';
+import AccountPage from './pages/AccountPage';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -22,6 +23,7 @@ root.render(
         <Route path="input" element={<InputPage />} />
         <Route path="about" element={<AboutPage />} />
         <Route path="octo" element={<OctoPage />} />
+        <Route path="account" element={<AccountPage />} />
 
         {/* <Route path="/" element={<Layout />}/> */}
       </Routes>

@@ -7,6 +7,7 @@ body {
     margin: 0;
 }
 
+
 .nav {
     /* background-color: #333; */
     /* color: white; */
@@ -21,6 +22,13 @@ body {
 .site-title {
     /* padding-left: 1rem; */
     font-size: 2rem;
+}
+
+.nav h1 {
+    padding-left: 2rem;
+    padding-right: 1rem;
+    font-size: 25px;
+    font-weight: 400;
 }
 
 .nav ul {
@@ -40,10 +48,36 @@ body {
     padding: .25rem;
 } 
 
-.nav li.active {
-    background-color: #555;
+.links {
+    font-size: 16px;
+    font-family: 'Roboto';
 }
 
-.nav li:hover {
-    background-color: #777;
+.nav li {
+    font-size: 16px;
+    font-family: 'Roboto';
 }
+
+/* .nav li:hover {
+    background-color: #777;
+} */
+
+.nav p {
+    padding-left: 2rem;
+    padding-right: 1rem;
+    padding-top: 10px;
+    align-items: center;
+    font-size: 16px;
+    font-family: 'Roboto';
+    cursor: pointer;
+    white-space: nowrap;
+}
+
+.nav img {
+    border-radius: 50%;
+    width: 45px;
+    height: 45px;
+    margin-top: 12px;
+    margin-right: 18px;
+}
+

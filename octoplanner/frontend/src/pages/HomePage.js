@@ -2,7 +2,7 @@ import logo from '../images/logo.svg';
 import '../css/App.css';
 import { NavLink } from 'react-router-dom';
 import NavBar from '../components/NavBar';
-// import octopus1 from '../images/octupus1.png';
+import octopus1 from '../images/octopus1.png';
 
 
 
@@ -13,7 +13,7 @@ function HomePage() {
       <h1>
         Welcome, {localStorage.name}!
       </h1>
-      {/* <img src={localStorage.profilePic} alt = "oct"/> */}
+      <img src={octopus1} alt = "oct1"/>
     </div>
   );
 }

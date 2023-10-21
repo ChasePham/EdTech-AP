@@ -3,8 +3,8 @@ HOW TO START THE REACT APP:
 ** MAKE SURE YOU HAVE REACT INSTALLED ** 
 (Run "npm view react version" in terminal to check)
 
-1) In terminal, make sure you are in the EdTech-AP/octoplanner directory
-use "cd octoplanner" if you are not inside of it
+1) In terminal, make sure you are in the EdTech-AP/octoplanner/frontend directory
+use "cd octoplanner/frontend" if you are not inside of it
 
 2) Run the command "npm i" inside terminal
 
