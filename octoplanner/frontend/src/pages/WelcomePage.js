@@ -1,4 +1,4 @@
-import logo from '../images/logo.svg';
+
 import vector from '../images/Vector.svg';
 import line38 from '../images/Line 38.svg';
 import star1 from '../images/Star 1.svg';
