@@ -8,7 +8,7 @@ import star4 from '../images/Star 4.svg';
 import '../css/App.css';
 import { db, auth } from "../api/Firebase"
 import NavBar from '../components/NavBar';
-
+import Calendar from '../images/calendar.jpg'
 
 function WelcomePage() {
   return (
@@ -23,7 +23,6 @@ function WelcomePage() {
               get your grades
               <br /> up!
             </div>
-            <div className="check-all" />
             <img className="vector" alt="Vector" src={vector} />
             <img className="line" alt="Line" src={line38} />
           </div>
@@ -40,6 +39,7 @@ function WelcomePage() {
                 <div className="ellipse-4" />
                 <div className="ellipse-5" />
                 <div className="ellipse-6" />
+                <img className="calendar" src={Calendar}/>
               </div>
               <img className="star-3" alt="Star" src={star3} />
               <a href="/login">
