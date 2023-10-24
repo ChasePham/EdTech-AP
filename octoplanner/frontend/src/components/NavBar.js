@@ -7,6 +7,7 @@ import Button from '@mui/material/Button';
 import Menu from '@mui/material/Menu';
 import PopupState, { bindTrigger, bindMenu } from 'material-ui-popup-state';
 import { createTheme, ThemeProvider } from "@mui/material/styles";
+import BlankProfile from "../images/blankProfile.jpeg";
 
 
 export default function NavBar() {
@@ -22,7 +23,7 @@ export default function NavBar() {
         popupState.close();
         localStorage.removeItem("name");
         localStorage.removeItem("email");
-        localStorage.removeItem("profilePic");
+        localStorage.setItem("profilePic", BlankProfile);
         navigate("/");
     }
 

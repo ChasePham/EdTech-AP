@@ -8,7 +8,7 @@
 
 .welcome .div {
   background-color: #ffffff;
-  height: 1024px;
+  height: 725px;
   overflow: hidden;
   position: relative;
   width: 1440px;
@@ -125,7 +125,7 @@
   height: 113px;
   left: 2px;
   position: absolute;
-  top: 89px;
+  top: -25px;
   transform: rotate(-30deg);
   width: 388px;
 }
@@ -139,7 +139,7 @@
   letter-spacing: 0;
   line-height: normal;
   position: absolute;
-  top: 127px;
+  top: -25px;
 }
 
 .welcome .overlap-4 {
@@ -318,7 +318,7 @@
   height: 51px;
   left: 133px;
   position: absolute;
-  top: 377px;
+  top: 275px;
   width: 192px;
 }
 
@@ -327,6 +327,7 @@
   height: 51px;
   position: relative;
   width: 190px;
+  cursor: pointer;
 }
 
 .welcome .text-wrapper-7 {
@@ -372,6 +373,6 @@
   height: 51px;
   left: 133px;
   position: absolute;
-  top: 443px;
+  top: 341px;
   width: 192px;
 }

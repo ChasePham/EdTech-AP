@@ -23,11 +23,8 @@ const LoginPage = () => {
         .catch((error) => {
             console.log(error);
         });
-        // onSuccess();
     }
-    // const onSuccess = () => {
 
-    // }
     return (
         <div>
             <NavBar/>
