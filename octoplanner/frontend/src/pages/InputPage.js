@@ -18,9 +18,10 @@ function InputPage() {
       const reader = new FileReader();
       reader.onload = async (e) => {
         const data = new Uint8Array(e.target.result);
-        const pdf = await pdfjs.getDocument(data);
-        setNumPages(pdf.numPages);
-
+        const pdf = await pdfjs.getDocument({
+          data: data,
+          verbosity: 0,
+        }).promise;
         // Loop through pages and extract text
         let extractedText = '';
         for (let pageIndex = 1; pageIndex <= pdf.numPages; pageIndex++) {
@@ -29,7 +30,7 @@ function InputPage() {
           const pageText = textContent.items.map((item) => item.str).join(' ');
           extractedText += pageText + ' ';
         }
-
+        console.log(extractedText)
         // Store the extracted text in the state
         setText(extractedText);
       };
@@ -44,11 +45,11 @@ function InputPage() {
       <button onClick={extractText}>Extract Text</button>
       {file && (
         <div>
-          <Document file={file}>
+          {/* <Document file={file}>
             {Array.from(new Array(numPages), (el, index) => (
               <Page key={`page_${index + 1}`} pageNumber={index + 1} />
             ))}
-          </Document>
+          </Document> */}
           <div>
             <p>Extracted Text:</p>
             <p>{text}</p>
