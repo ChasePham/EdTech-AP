@@ -1,16 +1,81 @@
-.LoginPrompt {
-    text-align: center;
+.login-box {
+    width: 500px;
+    margin: 0 auto;
+    padding: 18px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
 }
 
-.loginButton {
-    background-color: #000; 
-    border: none;
-    color: white;
-    padding: 15px 32px;
+.login {
     text-align: center;
-    text-decoration: none;
+    margin-bottom: 20px;
+}
+
+.container {
+    text-align: left;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+label {
     display: inline-block;
-    font-size: 16px;
+}
+
+.psw {
+    display: inline-block;
+    margin-left: 200px; 
+}
+
+
+.login-button {
+    background-color: #000000;
+    color: white;
+    padding: 10px 210px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    margin-bottom: 10px
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+.google-button {
+    background-color: rgb(255, 255, 255);
+    padding: 5px 5px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    margin-bottom: 10px;
+    width: 50%;
+    height: auto;
+}
+
+.google-logo-button {
+    width: 10%;
+    height: auto;
     cursor: pointer;
 }
 
+.google-button-container {
+    display: inline-block;
+}
+
+.google-button-container label {
+    display: inline-block;
+    margin-left: 150px;
+    padding: 3px 10px;
+}
