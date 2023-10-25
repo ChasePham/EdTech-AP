@@ -39,7 +39,7 @@ export default function NavBar() {
     return (
         <nav className="nav">
             <ul>
-                <h1>octomize.</h1>
+                <a href="/home"><h1>octomize.</h1></a>
                 <li>
                     <NavLink to="/home">Home</NavLink>
                 </li>

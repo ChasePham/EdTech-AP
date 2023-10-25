@@ -28,6 +28,7 @@ const LoginPage = () => {
 
     return (
         <div>
+            <NavBar/>
             <div class="login-box">
                 <div class="login">
                     <h2>log in to octomize.</h2>
