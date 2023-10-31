@@ -10,6 +10,7 @@ import InputPage from './pages/InputPage';
 import AboutPage from './pages/AboutPage';
 import OctoPage from './pages/OctoPage';
 import AccountPage from './pages/AccountPage';
+import GamificationPage from './pages/GamificationPage';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -24,6 +25,7 @@ root.render(
         <Route path="about" element={<AboutPage />} />
         <Route path="octo" element={<OctoPage />} />
         <Route path="account" element={<AccountPage />} />
+        <Route path="gamification" element={<GamificationPage/>} />
 
         {/* <Route path="/" element={<Layout />}/> */}
       </Routes>

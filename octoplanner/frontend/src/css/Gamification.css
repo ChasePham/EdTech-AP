@@ -1,0 +1,599 @@
+.cute-gamification {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .cute-gamification .div {
+    background-color: #ffffff;
+    height: 1024px;
+    overflow: hidden;
+    position: relative;
+    width: 1440px;
+  }
+  
+  .cute-gamification .overlap {
+    height: 339px;
+    left: 89px;
+    position: absolute;
+    top: 343px;
+    width: 273px;
+  }
+  
+  .cute-gamification .rectangle {
+    background-color: #616161;
+    height: 31px;
+    left: 1px;
+    position: absolute;
+    top: 1px;
+    width: 251px;
+  }
+  
+  .cute-gamification .img {
+    height: 15px;
+    left: 12px;
+    position: absolute;
+    top: 53px;
+    width: 20px;
+  }
+  
+  .cute-gamification .rectangle-stroke {
+    height: 24px;
+    left: 8px;
+    position: absolute;
+    top: 105px;
+    width: 28px;
+  }
+  
+  .cute-gamification .rectangle-stroke-2 {
+    height: 23px;
+    left: 9px;
+    position: absolute;
+    top: 156px;
+    width: 28px;
+  }
+  
+  .cute-gamification .rectangle-stroke-3 {
+    height: 23px;
+    left: 8px;
+    position: absolute;
+    top: 210px;
+    width: 28px;
+  }
+  
+  .cute-gamification .rectangle-stroke-4 {
+    height: 23px;
+    left: 8px;
+    position: absolute;
+    top: 267px;
+    width: 28px;
+  }
+  
+  .cute-gamification .rectangle-stroke-5 {
+    height: 23px;
+    left: 9px;
+    position: absolute;
+    top: 312px;
+    width: 28px;
+  }
+  
+  .cute-gamification .vector {
+    height: 10px;
+    left: 15px;
+    position: absolute;
+    top: 56px;
+    width: 13px;
+  }
+  
+  .cute-gamification .study-for-psychology {
+    color: #757575;
+    font-family: "Inter-Regular", Helvetica;
+    font-size: 11px;
+    font-weight: 400;
+    left: 50px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 57px;
+    white-space: nowrap;
+    width: 167px;
+  }
+  
+  .cute-gamification .text-wrapper {
+    color: #ffffff;
+    font-family: "Inter-Regular", Helvetica;
+    font-size: 11px;
+    font-weight: 400;
+    left: 106px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 11px;
+    white-space: nowrap;
+    width: 167px;
+  }
+  
+  .cute-gamification .rectangle-2 {
+    border: 0.6px solid;
+    border-color: #616161;
+    height: 339px;
+    left: 1px;
+    position: absolute;
+    top: 0;
+    width: 251px;
+  }
+  
+  .cute-gamification .line {
+    height: 1px;
+    left: 0;
+    position: absolute;
+    top: 31px;
+    width: 252px;
+  }
+  
+  .cute-gamification .line-2 {
+    height: 1px;
+    left: 1px;
+    position: absolute;
+    top: 84px;
+    width: 252px;
+  }
+  
+  .cute-gamification .line-3 {
+    height: 1px;
+    left: 2px;
+    position: absolute;
+    top: 137px;
+    width: 252px;
+  }
+  
+  .cute-gamification .line-4 {
+    height: 1px;
+    left: 0;
+    position: absolute;
+    top: 190px;
+    width: 252px;
+  }
+  
+  .cute-gamification .line-5 {
+    height: 1px;
+    left: 0;
+    position: absolute;
+    top: 244px;
+    width: 252px;
+  }
+  
+  .cute-gamification .line-6 {
+    height: 1px;
+    left: 0;
+    position: absolute;
+    top: 296px;
+    width: 252px;
+  }
+  
+  .cute-gamification .line-7 {
+    height: 339px;
+    left: 42px;
+    position: absolute;
+    top: 0;
+    width: 1px;
+  }
+  
+  .cute-gamification .overlap-group {
+    height: 417px;
+    left: 1143px;
+    position: absolute;
+    top: 310px;
+    width: 297px;
+  }
+  
+  .cute-gamification .rectangle-3 {
+    background-color: #616161;
+    height: 31px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 254px;
+  }
+  
+  .cute-gamification .text-wrapper-2 {
+    color: #ffffff;
+    font-family: "Roboto Mono-Regular", Helvetica;
+    font-size: 16px;
+    font-weight: 400;
+    left: 100px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 9px;
+    width: 167px;
+  }
+  
+  .cute-gamification .witch-hat {
+    height: 58px;
+    left: 154px;
+    position: absolute;
+    top: 51px;
+    width: 78px;
+  }
+  
+  .cute-gamification .lady-s-hat {
+    height: 49px;
+    left: 25px;
+    position: absolute;
+    top: 59px;
+    width: 75px;
+  }
+  
+  .cute-gamification .hat {
+    height: 135px;
+    left: 16px;
+    position: absolute;
+    top: 193px;
+    width: 90px;
+  }
+  
+  .cute-gamification .wide-brimmed-hat {
+    height: 41px;
+    left: 28px;
+    position: absolute;
+    top: 156px;
+    width: 269px;
+  }
+  
+  .cute-gamification .magician-hat {
+    height: 147px;
+    left: 153px;
+    position: absolute;
+    top: 187px;
+    width: 70px;
+  }
+  
+  .cute-gamification .hat-2 {
+    height: 58px;
+    left: 131px;
+    position: absolute;
+    top: 330px;
+    width: 114px;
+  }
+  
+  .cute-gamification .line-8 {
+    height: 386px;
+    left: 121px;
+    object-fit: cover;
+    position: absolute;
+    top: 31px;
+    width: 1px;
+  }
+  
+  .cute-gamification .line-9 {
+    height: 1px;
+    left: 0;
+    object-fit: cover;
+    position: absolute;
+    top: 130px;
+    width: 254px;
+  }
+  
+  .cute-gamification .line-10 {
+    height: 1px;
+    left: 0;
+    object-fit: cover;
+    position: absolute;
+    top: 221px;
+    width: 254px;
+  }
+  
+  .cute-gamification .line-11 {
+    height: 1px;
+    left: 0;
+    object-fit: cover;
+    position: absolute;
+    top: 311px;
+    width: 254px;
+  }
+  
+  .cute-gamification .rectangle-4 {
+    border: 0.6px solid;
+    border-color: #616161;
+    height: 417px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 254px;
+  }
+  
+  .cute-gamification .line-12 {
+    height: 1px;
+    left: 0;
+    position: absolute;
+    top: 30px;
+    width: 252px;
+  }
+  
+  .cute-gamification .overlap-2 {
+    height: 238px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 1440px;
+  }
+  
+  .cute-gamification .rectangle-5 {
+    height: 130px;
+    left: 0;
+    position: absolute;
+    top: 108px;
+    width: 1440px;
+  }
+  
+  .cute-gamification .ellipse {
+    height: 55px;
+    left: 1369px;
+    position: absolute;
+    top: 27px;
+    width: 55px;
+  }
+  
+  .cute-gamification .my-account {
+    height: 15px;
+    left: 1269px;
+    position: absolute;
+    top: 56px;
+    width: 84px;
+  }
+  
+  .cute-gamification .rectangle-stroke-6 {
+    height: 107px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 1440px;
+  }
+  
+  .cute-gamification .group {
+    height: 20px;
+    left: 199px;
+    position: absolute;
+    top: 53px;
+    width: 294px;
+  }
+  
+  .cute-gamification .group-2 {
+    height: 20px;
+    position: relative;
+    width: 302px;
+  }
+  
+  .cute-gamification .text-wrapper-3 {
+    color: #3a3a3a;
+    font-family: "Roboto-Medium", Helvetica;
+    font-size: 16px;
+    font-weight: 500;
+    left: 0;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 1px;
+    white-space: nowrap;
+  }
+  
+  .cute-gamification .text-wrapper-4 {
+    color: #3a3a3a;
+    font-family: "Roboto-Medium", Helvetica;
+    font-size: 16px;
+    font-weight: 500;
+    left: 82px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 1px;
+    white-space: nowrap;
+  }
+  
+  .cute-gamification .text-wrapper-5 {
+    color: #bb9dd2;
+    font-family: "Roboto-Medium", Helvetica;
+    font-size: 16px;
+    font-weight: 500;
+    left: 182px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 1px;
+    white-space: nowrap;
+  }
+  
+  .cute-gamification .text-wrapper-6 {
+    color: #3a3a3a;
+    font-family: "Roboto-Medium", Helvetica;
+    font-size: 16px;
+    font-weight: 500;
+    left: 251px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 0;
+    white-space: nowrap;
+  }
+  
+  .cute-gamification .text-wrapper-7 {
+    color: #000000;
+    font-family: "Inter-Regular", Helvetica;
+    font-size: 25px;
+    font-weight: 400;
+    left: 46px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 52px;
+    width: 205px;
+  }
+  
+  .cute-gamification .p {
+    color: #000000;
+    font-family: "Roboto-Regular", Helvetica;
+    font-size: 15px;
+    font-weight: 400;
+    left: 101px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 156px;
+    width: 185px;
+  }
+  
+  .cute-gamification .bubbles {
+    height: 101px;
+    left: 23px;
+    position: absolute;
+    top: 123px;
+    width: 71px;
+  }
+  
+  .cute-gamification .ellipse-2 {
+    background-color: #ebe2fdb2;
+    border-radius: 201.5px/158.5px;
+    filter: blur(4px);
+    height: 317px;
+    left: 1238px;
+    position: absolute;
+    top: 849px;
+    width: 403px;
+  }
+  
+  .cute-gamification .overlap-3 {
+    height: 549px;
+    left: 415px;
+    position: absolute;
+    top: 264px;
+    width: 650px;
+  }
+  
+  .cute-gamification .rectangle-6 {
+    background-color: #eee6fe;
+    border-radius: 10px;
+    height: 491px;
+    left: 0;
+    position: absolute;
+    top: 13px;
+    width: 650px;
+  }
+  
+  .cute-gamification .overlap-group-wrapper {
+    height: 48px;
+    left: 460px;
+    position: absolute;
+    top: 118px;
+    width: 177px;
+  }
+  
+  .cute-gamification .overlap-group-2 {
+    height: 48px;
+    position: relative;
+    width: 175px;
+  }
+  
+  .cute-gamification .rectangle-7 {
+    background-color: #ffffff;
+    border-radius: 12px;
+    height: 48px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 169px;
+  }
+  
+  .cute-gamification .text-wrapper-8 {
+    color: #000000;
+    font-family: "Inter-Medium", Helvetica;
+    font-size: 16px;
+    font-weight: 500;
+    left: 6px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 15px;
+    width: 169px;
+  }
+  
+  .cute-gamification .living-room {
+    height: 456px;
+    left: 65px;
+    position: absolute;
+    top: 0;
+    width: 532px;
+  }
+  
+  .cute-gamification .element-octo-pie-pastries {
+    height: 549px;
+    left: 117px;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    width: 503px;
+  }
+  
+  .cute-gamification .text-wrapper-9 {
+    color: #000000;
+    font-family: "Roboto Mono-Regular", Helvetica;
+    font-size: 16px;
+    font-weight: 400;
+    left: 677px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 887px;
+    width: 185px;
+  }
+  
+  .cute-gamification .overlap-4 {
+    height: 58px;
+    left: 586px;
+    position: absolute;
+    top: 822px;
+    width: 363px;
+  }
+  
+  .cute-gamification .img-2 {
+    height: 36px;
+    left: 32px;
+    position: absolute;
+    top: 9px;
+    width: 331px;
+  }
+  
+  .cute-gamification .img-3 {
+    height: 36px;
+    left: 41px;
+    position: absolute;
+    top: 9px;
+    width: 84px;
+  }
+  
+  .cute-gamification .img-4 {
+    height: 36px;
+    left: 125px;
+    position: absolute;
+    top: 9px;
+    width: 83px;
+  }
+  
+  .cute-gamification .img-5 {
+    height: 36px;
+    left: 208px;
+    position: absolute;
+    top: 9px;
+    width: 84px;
+  }
+  
+  .cute-gamification .group-3 {
+    height: 58px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 61px;
+  }
+  
