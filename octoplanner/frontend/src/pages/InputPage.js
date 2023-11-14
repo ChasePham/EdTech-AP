@@ -8,6 +8,7 @@ function InputPage() {
   const [file, setFile] = useState(null);
   const [numPages, setNumPages] = useState(null);
   const [text, setText] = useState('');
+  const [dates, setDates] = useState(['']);
 
   const onFileChange = (e) => {
     setFile(e.target.files[0]);
@@ -38,11 +39,21 @@ function InputPage() {
     }
   };
 
+  const getDates = async () => {
+    //text.replace(/(0?[1-9]|[12][0-9]|3[01])[\/\-\.](0?[1-9]|1[012])[\/\-\.]\d{4}/g, '');
+    //var str = 'On the 03/09/2015 I am swiming in a pool, that was build on the 27-03-1994';
+    setDates(text.match(/\d{1}([\/.-])\d{2}\1\d{2}/g));
+  }
+
   return (
     <div>
       <NavBar/>
+      Get your first two classes added for free! Click <a href="/about">here</a> 
+      &nbsp;for an upgrade to Octo Plus™
+      <br/>
       <input type="file" accept=".pdf" onChange={onFileChange} />
       <button onClick={extractText}>Extract Text</button>
+      <button onClick={getDates}>Extract Dates</button>
       {file && (
         <div>
           {/* <Document file={file}>
@@ -53,6 +64,7 @@ function InputPage() {
           <div>
             <p>Extracted Text:</p>
             <p>{text}</p>
+            <ul>{dates.map(date => (<li>{date}&nbsp;</li>))}</ul>
           </div>
         </div>
       )}
