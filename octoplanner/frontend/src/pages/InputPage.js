@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { Document, Page, pdfjs } from 'react-pdf';
 import NavBar from "../components/NavBar";
+import "../css/InputPage.css";
 
 pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.js`;
 
@@ -47,13 +48,15 @@ function InputPage() {
 
   return (
     <div>
-      <NavBar/>
+      <NavBar curPage="input"/>
       Get your first two classes added for free! Click <a href="/about">here</a> 
       &nbsp;for an upgrade to Octo Plus™
       <br/>
+      <br/>
+
       <input type="file" accept=".pdf" onChange={onFileChange} />
-      <button onClick={extractText}>Extract Text</button>
-      <button onClick={getDates}>Extract Dates</button>
+      <button class = "input-button" onClick={extractText}>Extract Text</button>
+      <button class = "input-button" onClick={getDates}>Extract Dates</button>
       {file && (
         <div>
           {/* <Document file={file}>

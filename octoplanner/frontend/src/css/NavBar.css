@@ -81,3 +81,7 @@ body {
     margin-right: 18px;
 }
 
+.uladjust {
+    text-underline-offset: 4px;
+}
+

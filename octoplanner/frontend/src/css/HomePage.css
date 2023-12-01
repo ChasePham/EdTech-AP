@@ -1,0 +1,9 @@
+.image {
+    width: 25%;
+    height: auto;
+}
+
+.displayset {
+    display: inline;
+    white-space: nowrap;
+}

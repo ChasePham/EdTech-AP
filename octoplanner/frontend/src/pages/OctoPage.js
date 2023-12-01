@@ -47,7 +47,7 @@ import Calendar from '../images/calendar.jpg';
 function OctoPage() {
   return (
     <div>
-        <NavBar/>
+        <NavBar curPage="octo"/>
     <div className="cute-gamification">
     <div className="div">
       <div className="overlap">

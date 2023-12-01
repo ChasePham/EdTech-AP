@@ -8,9 +8,11 @@ import Menu from '@mui/material/Menu';
 import PopupState, { bindTrigger, bindMenu } from 'material-ui-popup-state';
 import { createTheme, ThemeProvider } from "@mui/material/styles";
 import BlankProfile from "../images/blankProfile.jpeg";
+import { useEffect, useState } from "react";
 
 
-export default function NavBar() {
+
+export default function NavBar({curPage}) {
 
     const navigate = new useNavigate();
 
@@ -41,16 +43,16 @@ export default function NavBar() {
             <ul>
                 <a href="/home"><h1>octomize.</h1></a>
                 <li>
-                    <NavLink to="/home">Home</NavLink>
+                    <NavLink className="uladjust" style={{textDecorationLine: curPage == "home" ? 'underline' : 'none'}} to="/home">Home</NavLink>
                 </li>
                 <li>
-                    <NavLink to="/input">Generate</NavLink>
+                    <NavLink className="uladjust" style={{textDecorationLine: curPage == "input" ? 'underline' : 'none'}} to="/input">Generate</NavLink>
                 </li>
                 <li>
-                    <NavLink to="/octo">Octo</NavLink>
+                    <NavLink className="uladjust" style={{textDecorationLine: curPage == "octo" ? 'underline' : 'none'}} to="/octo">Octo</NavLink>
                 </li>
                 <li>
-                    <NavLink to="/about">About</NavLink>
+                    <NavLink className="uladjust" style={{textDecorationLine: curPage == "about" ? 'underline' : 'none'}} to="/about">About</NavLink>
                 </li>
             </ul>
             <ul>
