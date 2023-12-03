@@ -1,5 +1,5 @@
 import NavBar from "../components/NavBar";
-import Calendar from "react-calendar";
+
 
 const CalendarPage = () => {
     return (

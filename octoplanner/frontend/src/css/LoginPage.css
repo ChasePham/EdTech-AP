@@ -1,81 +1,283 @@
-.login-box {
-    width: 500px;
-    margin: 0 auto;
-    padding: 18px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
+.background-login {
+    height: 512px;
+    width: 1440px;
 }
 
-.login {
+.background-login .background {
+    height: 512px;
+    left: 0;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    width: 101%;
+    z-index: -1;
+}
+
+.box {
+    height: 669px;
+    width: 572px;
+}
+
+.box .rectangle {
+    height: 669px;
+    width: 572px;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.label {
+    height: 43.23px;
+    width: 380px;
+}
+
+.label .log-in {
+    color: #000000;
+    font-family: "Zen Kaku Gothic Antique-Bold", Helvetica;
+    font-size: 31.2px;
+    font-weight: 700;
+    left: 50%;
+    letter-spacing: 0;
+    line-height: 187.16px;
+    position: absolute;
     text-align: center;
-    margin-bottom: 20px;
+    top: 10%;
+    white-space: nowrap;
+    transform: translateX(-50%);
 }
 
-.container {
-    text-align: left;
+.email-box {
+    height: 77px;
+    width: 380px;
 }
 
-label {
-    display: block;
-    margin-top: 10px;
+.email-box .rectangle {
+    background-color: #ffffff;
+    border: 1px solid;
+    border-color: #e0e0e0;
+    height: 77px;
+    width: 380px;
+    position: absolute;
+    top: 37.77%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.email-label {
+    height: 21.67px;
+    width: 78px;
+}
+  
+.email-label .text-wrapper {
+    color: #424242;
+    font-family: "Zen Kaku Gothic Antique-Medium", Helvetica;
+    font-size: 10.3px;
+    font-weight: 500;
+    left: 0;
+    letter-spacing: 0;
+    line-height: 18.1px;
+    position: absolute;
+    top: 0;
+    white-space: absolute;
+    top: 35.03%;
+    left: 41%;
+    transform: translate(-50%, -50%);
+}
+
+.pwd-box {
+    height: 77px;
+    width: 380px;
+}
+
+.pwd-box .rectangle {
+    background-color: #ffffff;
+    border: 1px solid;
+    border-color: #e0e0e0;
+    height: 77px;
+    width: 380px;
+    position: absolute;
+    top: 47.79%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.pwd-label {
+    height: 21.67px;
+    width: 78px;
+}
+  
+.pwd-label .text-wrapper {
+    color: #424242;
+    font-family: "Zen Kaku Gothic Antique-Medium", Helvetica;
+    font-size: 10.3px;
+    font-weight: 500;
+    left: 0;
+    letter-spacing: 0;
+    line-height: 18.1px;
+    position: absolute;
+    top: 0;
+    white-space: absolute;
+    top: 45.05%;
+    left: 40.2%;
+    transform: translate(-50%, -50%);
 }
 
 input[type="text"],
 input[type="password"] {
-    width: 100%;
-    padding: 10px;
+    width: 220%;
+    padding: 8px;
     margin: 5px 0;
     border: 1px solid #ccc;
     border-radius: 3px;
 }
 
-label {
-    display: inline-block;
+.email-enter {
+    color: #424242;
+    font-family: "Zen Kaku Gothic Antique-Medium", Helvetica;
+    font-size: 10.3px;
+    font-weight: 500;
+    left: 0;
+    letter-spacing: 0;
+    line-height: 18.1px;
+    position: absolute;
+    top: 0;
+    white-space: absolute;
+    top: 39%;
+    left: 43.5%;
+    transform: translate(-50%, -50%);
 }
 
-.psw {
-    display: inline-block;
-    margin-left: 200px; 
+.pwd-enter {
+    color: #424242;
+    font-family: "Zen Kaku Gothic Antique-Medium", Helvetica;
+    font-size: 10.3px;
+    font-weight: 500;
+    left: 0;
+    letter-spacing: 0;
+    line-height: 18.1px;
+    position: absolute;
+    top: 0;
+    white-space: absolute;
+    top: 49%;
+    left: 43.5%;
+    transform: translate(-50%, -50%);
 }
 
+.rememberme-check {
+    position: absolute;
+    text-decoration: underline;
+    top: 0;
+    white-space: nowrap;
+
+    top: 57%;
+    left: 38%;
+    transform: translate(-50%, -50%);
+}
+
+.rememberme {
+    color: #616161;
+    font-family: "Zen Kaku Gothic Antique-Regular", Helvetica;
+    font-size: 11px;
+    font-weight: 400;
+    left: 0;
+    letter-spacing: 0;
+    line-height: 22.5px;
+    position: absolute;
+    text-decoration: underline;
+    white-space: nowrap;
+
+    top: 57%;
+    left: 41.3%;
+    transform: translate(-50%, -50%);
+}
+
+.forgot-pwd {
+    color: #616161;
+    font-family: "Zen Kaku Gothic Antique-Regular", Helvetica;
+    font-size: 11px;
+    font-weight: 400;
+    left: 0;
+    letter-spacing: 0;
+    line-height: 22.5px;
+    position: absolute;
+    text-decoration: underline;
+    top: 0;
+    white-space: nowrap;
+
+    top: 57%;
+    left: 59.7%;
+    transform: translate(-50%, -50%);
+}
 
 .login-button {
     background-color: #000000;
     color: white;
-    padding: 10px 210px;
-    border: none;
-    border-radius: 3px;
-    cursor: pointer;
-    margin-bottom: 10px
-}
-
-button:hover {
-    opacity: 0.8;
-}
-
-.google-button {
-    background-color: rgb(255, 255, 255);
-    padding: 5px 5px;
+    padding: 22px 170px;
     border: none;
     border-radius: 3px;
     cursor: pointer;
     margin-bottom: 10px;
-    width: 50%;
-    height: auto;
+    position: absolute;
+    top: 65%; 
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
-.google-logo-button {
-    width: 10%;
-    height: auto;
-    cursor: pointer;
+.oruse {
+    height: 26px;
+    width: 100px;
+    position: absolute;
+    top: 75.5%; 
+    left: 49%;
+    transform: translate(-50%, -50%);
+}
+
+.text-wrapper {
+    color: #000000;
+    font-family: "Zen Kaku Gothic Antique-Medium", Helvetica;
+    font-size: 13px;
+    font-weight: 500;
+    left: 0;
+    letter-spacing: 0;
+    line-height: 18.1px;
+    position: absolute;
+    top: 0;
+    white-space: absolute;
 }
 
 .google-button-container {
-    display: inline-block;
+    height: 46px;
+    width: 40px;
 }
 
-.google-button-container label {
-    display: inline-block;
-    margin-left: 150px;
-    padding: 3px 10px;
+.google-logo-button {
+    height: 32px;
+    left: 6px;
+    position: absolute;
+    top: 72.5%;
+    left: 50%;
+}
+
+.star {
+    height: 66px;
+    width: 62px;
+}
+
+.star .star-one {
+    position: absolute;
+    top: 79%;
+    left: 13.19%;
+}
+
+.star .star-two {
+    position: absolute;
+    top: 111%;
+    left: 75.56%;
+}
+
+.star .star-three {
+    position: absolute;
+    top: 55%;
+    left: 90.07%;
 }
