@@ -37,7 +37,7 @@ const LoginPage = () => {
           </div>
       
           <div className="label">
-            <div className="log-in">log in to octomize.</div>
+            <div className="log-in">sign in to octomize.</div>
           </div>
       
           <div className="email-box">
