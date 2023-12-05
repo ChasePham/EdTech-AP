@@ -1,5 +1,15 @@
-HOW TO START THE REACT APP:
-
+# Octomize
+## Texas Convergent EdTech Build Team
+### Members
+- Tech: Chase Pham, Barnett Han, Druthi Palle, Taylor Hickman
+- Product: Aayushi Dumka, Aulona Ljena, Brandy Xie
+- Design: Erin Walters
+### Product Description
+- Octomize is an ai-driven, gamified study scheduler that uses spaced repetition to revitalize a desire to learn and optimize retention.
+### Tech Stacks
+- Frontend: React
+- Backend: Firebase
+### HOW TO START THE REACT APP:
 ** MAKE SURE YOU HAVE REACT INSTALLED ** 
 (Run "npm view react version" in terminal to check)
 
