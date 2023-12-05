@@ -7,3 +7,20 @@
     display: inline;
     white-space: nowrap;
 }
+
+.text {
+    font-size: 32px;
+    font-family: 'Roboto';
+}
+
+.check {
+    float: left;
+    position: absolute;
+    left: -77px;
+    top: 184px;
+    z-index: 10000;
+    padding: 5px;
+    background-color: white;
+    width: 15%;
+    accent-color: #CBC3E3;
+ }

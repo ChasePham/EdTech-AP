@@ -515,8 +515,9 @@
     letter-spacing: 0;
     line-height: normal;
     position: absolute;
-    top: 15px;
+    top: 8px;
     width: 169px;
+    z-index: 10000;
   }
   
   .cute-gamification .living-room {
@@ -596,4 +597,6 @@
     top: 0;
     width: 61px;
   }
+
+
   

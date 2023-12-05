@@ -48,6 +48,7 @@ function OctoPage() {
   return (
     <div>
         <NavBar curPage="octo"/>
+        
     <div className="cute-gamification">
     <div className="div">
       <div className="overlap">
@@ -94,7 +95,7 @@ function OctoPage() {
         <div className="overlap-group-wrapper">
           <div className="overlap-group-2">
             <div className="rectangle-7" />
-            <div className="text-wrapper-8">Good luck studying!</div>
+            <div className="text-wrapper-8">Good luck studying, {localStorage.name}!</div>
           </div>
         </div>
         <img className="living-room" alt="Living room" src={livingRoom} />

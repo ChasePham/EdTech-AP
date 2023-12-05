@@ -34,15 +34,15 @@
 
 .label .log-in {
     color: #000000;
-    font-family: "Zen Kaku Gothic Antique-Bold", Helvetica;
+    font-family: 'Roboto';
     font-size: 31.2px;
-    font-weight: 700;
+    font-weight: 400;
     left: 50%;
     letter-spacing: 0;
     line-height: 187.16px;
     position: absolute;
     text-align: center;
-    top: 10%;
+    top: 15%;
     white-space: nowrap;
     transform: translateX(-50%);
 }

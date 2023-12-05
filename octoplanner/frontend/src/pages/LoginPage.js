@@ -21,7 +21,7 @@ const LoginPage = () => {
             localStorage.setItem("name", name);
             localStorage.setItem("email", email);
             localStorage.setItem("profilePic", profilePic);
-            navigate("/home");
+            navigate("/input");
         })
         .catch((error) => {
             console.log(error);
@@ -82,7 +82,7 @@ const LoginPage = () => {
           </div>
 
           <div class="google-button-container">
-            <img class="google-logo-button" onClick={signInWithGoogle} src={GoogleLogo} alt="Google Logo"/>
+            <img style = {{cursor: "pointer"}}class="google-logo-button" onClick={signInWithGoogle} src={GoogleLogo} alt="Google Logo"/>
           </div>
 
           <div class="background-login">
